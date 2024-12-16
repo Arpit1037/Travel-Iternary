@@ -16,99 +16,18 @@
       <a href="signup.html">Sign Up</a>
     </div>
   </div>
-<style>
-  .navbar {
-  width: 100%;
-  background-color: #4a69bd;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 30px;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-}
 
-.navbar h1 {
-  font-size: 1.8rem;
-  font-weight: 600;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 1rem;
-  transition: color 0.5s;
-}
-
-.navbar a:hover {
-  color: #ffdd59;
-}
-
-.hero {
-  margin: 45px auto;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #666;
-}
-
-.form-section {
-  margin: 20px auto;
-  margin-left: 10%;
-  width: 80%;
-  background-color: #f0f0f0;
-  padding: 20px;
-  border: 1px solid #ddd;
-}
-
-.form-section h2 {
-  font-size: 1.5rem;
-  margin-top: 0;
-}
-
-.plan-section {
-  margin: 20px auto;
-  width: 80%;
-  background-color: #f0f0f0;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-}
-
-.plan-section h2 {
-  font-size: 1.5rem;
-  margin-top: 0;
-}
-
-#plan {
-  margin-top: 20px;
-}
-
-h3 {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-
-</style>
   <section class="hero">
     <h1>Your Travel Plan</h1>
     <p>Unleash the Explorer in You.</p>
   </section>
 
   <section class="form-section">
-    
     <h2><p>Destination: <span id="destination"></span></p></h2>
-    <p style="font-weight: bold ;color: #4a69bd;">Number of Days: <span id="days"></span></p>
+    <p style="font-weight: bold; color: #4a69bd;">Number of Days: <span id="days"></span></p>
+    <label for="start-date">Select Start Date:</label>
+    <input type="date" id="start-date">
+    <button onclick="generatePlan()">Generate Plan</button>
   </section>
 
   <section class="plan-section">
@@ -118,26 +37,6 @@ h3 {
 
   <script>
     
-    var urlParams = new URLSearchParams(window.location.search);
-
-    
-    var days = urlParams.get("days");
-    var destination = urlParams.get("destination");
-
-  
-    document.getElementById("destination").innerHTML = destination;
-    document.getElementById("days").innerHTML = days;
-
-    
-    var plan = "";
-    for (var i = 1; i <= days; i++) {
-      plan += `<h3>Day ${i}</h3>`;
-      plan += `<p>Discription: Add plan for day ${i}</p>`;
-      plan += `<p>Activities: Add activities for day ${i}</p>`;
-    }
-
-   
-     document.getElementById("plan").innerHTML = plan;
-  </script>
+   </script>
 </body>
 </html>
