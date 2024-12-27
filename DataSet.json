@@ -788,7 +788,87 @@
           ]
         }
       ]
+    },
+    {
+  "city": "Ooty",
+  "description": "Ooty, also known as Udhagamandalam, is a charming hill station in Tamil Nadu, India. Nestled in the Nilgiri Hills, Ooty is famous for its lush green landscapes, tea gardens, and pleasant climate. It's a perfect getaway for nature lovers and adventure enthusiasts alike.",
+  "image": "https://images.unsplash.com/photo-1597755805041-7a6b4b6b8b1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG9vdHl8ZW58MHx8fHwxNjQ3NzY1MjY5&ixlib=rb-1.2.1&q=80&w=1080",
+  "accommodations": [
+    {
+      "type": "Luxury",
+      "name": "Savoy - IHCL SeleQtions",
+      "description": "5-star heritage hotel with colonial charm and modern amenities",
+      "priceRange": "₹15,000-25,000 per night"
+    },
+    {
+      "type": "Mid-range",
+      "name": "Fortune Resort Sullivan Court",
+      "description": "4-star hotel with comfortable rooms and beautiful garden views",
+      "priceRange": "₹6,000-12,000 per night"
+    },
+    {
+      "type": "Budget",
+      "name": "Hotel Lakeview",
+      "description": "Affordable hotel with basic amenities and scenic views",
+      "priceRange": "₹2,000-4,000 per night"
     }
+  ],
+  "transportation": [
+    {
+      "mode": "Taxi",
+      "description": "Convenient for exploring the town and nearby attractions",
+      "cost": "₹1,000-2,500 per day"
+    },
+    {
+      "mode": "Auto Rickshaw",
+      "description": "Ideal for short distances within Ooty",
+      "cost": "₹50-150 per trip"
+    },
+    {
+      "mode": "Toy Train",
+      "description": "Scenic train ride on the Nilgiri Mountain Railway",
+      "cost": "₹200-500 per trip"
+    },
+    {
+      "mode": "Tourist Bus",
+      "description": "Organized tours to popular destinations",
+      "cost": "₹1,000-2,000 per day"
+    }
+  ],
+  "days": [
+    {
+      "name": "Day1",
+      "times": [
+        { "name": "9am", "description": "Visit Ooty Lake" },
+        { "name": "11am", "description": "Boat ride on the lake" },
+        { "name": "1pm", "description": "Lunch at a local restaurant" },
+        { "name": "3pm", "description": "Explore the Botanical Gardens" },
+        { "name": "5pm", "description": "Evening walk in the town" }
+      ]
+    },
+    {
+      "name": "Day2",
+      "times": [
+        { "name": "9am", "description": "Visit Doddabetta Peak" },
+        { "name": "11am", "description": "Enjoy the panoramic views" },
+        { "name": "1pm", "description": "Lunch at a mountain cafe" },
+        { "name": "3pm", "description": "Explore the Tea Museum" },
+        { "name": "5pm", "description": "Return to the hotel" }
+      ]
+    },
+    {
+      "name": "Day3",
+      "times": [
+        { "name": "9am", "description": "Visit Pykara Lake" },
+        { "name": "11am", "description": "Boat ride on the lake" },
+        { "name": "1pm", "description": "Lunch at a lakeside restaurant" },
+        { "name": "3pm", "description": "Explore the Pine Forest" },
+        { "name": "5pm", "description": "Return to Ooty" }
+      ]
+    }
+  ]
+}
+
   ]
 }
   
