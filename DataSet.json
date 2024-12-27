@@ -1183,7 +1183,87 @@
       ]
     }
   ]
+},
+    {
+  "city": "Uttarakhand",
+  "description": "Uttarakhand, often referred to as the 'Land of the Gods,' is a state in northern India known for its stunning natural beauty, serene landscapes, and spiritual significance. The region is famous for its majestic Himalayan peaks, sacred rivers, and vibrant culture, making it a popular destination for nature lovers and spiritual seekers.",
+  "image": "https://th.bing.com/th/id/OIP.KoGHT8iA3EgiBsqEih82PwHaFj?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+  "accommodations": [
+    {
+      "type": "Luxury",
+      "name": "Ananda in the Himalayas",
+      "description": "5-star luxury wellness retreat with stunning views and world-class amenities",
+      "priceRange": "₹20,000-35,000 per night"
+    },
+    {
+      "type": "Mid-range",
+      "name": "The Claridges Nabha Residence",
+      "description": "4-star heritage hotel with comfortable rooms and beautiful surroundings",
+      "priceRange": "₹8,000-15,000 per night"
+    },
+    {
+      "type": "Budget",
+      "name": "Hotel Sun N Snow",
+      "description": "Affordable hotel with basic amenities and scenic views",
+      "priceRange": "₹2,000-4,000 per night"
+    }
+  ],
+  "transportation": [
+    {
+      "mode": "Taxi",
+      "description": "Convenient for exploring the town and nearby attractions",
+      "cost": "₹1,000-2,500 per day"
+    },
+    {
+      "mode": "Auto Rickshaw",
+      "description": "Ideal for short distances within Uttarakhand",
+      "cost": "₹50-150 per trip"
+    },
+    {
+      "mode": "Cable Car",
+      "description": "Scenic ride offering panoramic views of the region",
+      "cost": "₹200-500 per trip"
+    },
+    {
+      "mode": "Tourist Bus",
+      "description": "Organized tours to popular destinations",
+      "cost": "₹1,000-2,000 per day"
+    }
+  ],
+  "days": [
+    {
+      "name": "Day1",
+      "times": [
+        { "name": "9am", "description": "Visit Haridwar" },
+        { "name": "11am", "description": "Explore Rishikesh" },
+        { "name": "1pm", "description": "Lunch at a local restaurant" },
+        { "name": "3pm", "description": "Visit Triveni Ghat" },
+        { "name": "5pm", "description": "Evening Aarti at Har Ki Pauri" }
+      ]
+    },
+    {
+      "name": "Day2",
+      "times": [
+        { "name": "9am", "description": "Visit Mussoorie" },
+        { "name": "11am", "description": "Explore Kempty Falls" },
+        { "name": "1pm", "description": "Lunch at a mountain cafe" },
+        { "name": "3pm", "description": "Visit Gun Hill" },
+        { "name": "5pm", "description": "Return to the hotel" }
+      ]
+    },
+    {
+      "name": "Day3",
+      "times": [
+        { "name": "9am", "description": "Visit Nainital" },
+        { "name": "11am", "description": "Boat ride on Naini Lake" },
+        { "name": "1pm", "description": "Lunch at a lakeside restaurant" },
+        { "name": "3pm", "description": "Explore Naina Devi Temple" },
+        { "name": "5pm", "description": "Return to the city center" }
+      ]
+    }
+  ]
 }
+
   ]
 }
   
