@@ -61,71 +61,8 @@
   <footer>
     <p>© 2024 TravelIfy. All rights reserved.</p>
   </footer>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const days = parseInt(urlParams.get("days"));
-      const destination = urlParams.get("destination");
-
-      document.getElementById("destination").innerHTML = destination || "Unknown";
-      document.getElementById("days").innerHTML = days || "0";
-
-      fetch('DataSet.json')
-        .then(response => response.json())
-        .then(data => {
-          const cityData = data.cityItineraries.find(itinerary => itinerary.city === destination);
-
-
-
-
-          if (cityData) {
-            document.getElementById("city-discription").textContent = cityData.description;
-            document.getElementById("image").innerHTML = `<img src="${cityData.image}" alt="${cityData.city}" />`;
-
-            
-            
-            
-            let accommodationsHTML = '';
-            cityData.accommodations.forEach(accommodation => {
-            accommodationsHTML += `<h3>${accommodation.type}</h3>
-                                   <p><strong>${accommodation.name}</strong>: ${accommodation.description} (Price: ${accommodation.priceRange})</p>`;
-          });
-
-          
-          document.getElementById("accommodations").innerHTML = accommodationsHTML || "No accommodations details available.";
-
-
-          let transportationHTML = "";
-          cityData.transportation.forEach(transport => {
-            transportationHTML += `<h3>${transport.mode}</h3>
-                                   <p>${transport.description} (Cost: ${transport.cost})</p>`;
-          });
-          document.getElementById("Transportation").innerHTML = transportationHTML || "No transportation details available.";
-
-
-
-
-            let plan = "";
-            
-            for (let i = 0; i < Math.min(days, cityData.days.length); i++) {
-              plan += `<h3><strong>Day ${i + 1}</strong></h3><ul>`;
-                
-              cityData.days[i].times.forEach(event => {
-                plan += `<li><strong>${event.name}:</strong> ${event.description}</li>`;
-              });
-              plan += `</ul>`;
-            }
-            document.getElementById("plan").innerHTML = plan;
-          } else {
-            document.getElementById("plan").textContent = 'No data available for the selected city.';
-          }
-        })
-        .catch(error => {
-          console.error('Error fetching the data:', error);
-          document.getElementById("plan").textContent = 'An error occurred while fetching the data.';
-        });
-    });
-  </script>
+ 
+   <script src="plan.js"></script>
 </body>
 </html>
 
