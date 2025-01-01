@@ -19,6 +19,21 @@ The Travel Itinerary System is a web application designed to help users plan, or
 3. Add destinations, activities, and other details to your itinerary.
 4. View your itinerary in the calendar view.
 
+## Images
+![image](https://github.com/user-attachments/assets/5a8a5c5f-1c26-4601-8423-163112b13219)
+![image](https://github.com/user-attachments/assets/dbd15774-9b84-4c02-8019-98cfa8479915)
+![image](https://github.com/user-attachments/assets/c860842b-d562-4c06-aa5c-f258595e5496)
+## Video
+https://github.com/user-attachments/assets/a48dae0e-017f-437d-bf65-4741287c8859
+
+
+
+
+
+
+
+
+
 
 ## Contributing 📊
 Contributions are welcome! Follow these steps to contribute:
