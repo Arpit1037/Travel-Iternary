@@ -12,12 +12,14 @@ The Travel Itinerary System is a web application designed to help users plan, or
   - HTML5
   - CSS3
   - JavaScript (ES6)
-  - 
+    
 ## Usage 🎢
 1. Register or log in to create your account.
 2. Click "Create New Itinerary" to start planning your trip.
 3. Add destinations, activities, and other details to your itinerary.
 4. View your itinerary in the calendar view.
+
+   Link: https://travelify-webs.netlify.app/login.html
 
 ## Images
 ![image](https://github.com/user-attachments/assets/5a8a5c5f-1c26-4601-8423-163112b13219)
